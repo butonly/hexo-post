@@ -1,0 +1,23 @@
+{
+  "name": "hexo-post",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "hexo-post": "bin/cli.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/commander": "^2.12.2",
+    "@types/js-yaml": "^3.11.1",
+    "@types/markdown-it": "0.0.4",
+    "commander": "^2.15.1",
+    "js-yaml": "^3.11.0",
+    "markdown-it": "^8.4.1",
+    "markdown-toc": "^1.2.0"
+  }
+}
